@@ -1,0 +1,97 @@
+/* ---------- CATEGORY PAGE CONTAINER ---------- */
+
+.category-page {
+    padding-top: 14vh;
+    padding-bottom: 8vh;
+    min-height: 50vh;
+}
+
+
+/* ---------- CATEGORY PAGE HEADER ---------- */
+
+.categorypage-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categorypage-head h2 {
+    padding-left: 2vw;
+    font-weight: 500;
+}
+
+.categorypage-head-options {
+    padding-right: 3vw;
+}
+
+.categorypage-head-options p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.categorypage-head-options span {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.categorypage-head-options span button {
+    width: 70px;
+    height: 6vh;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #000000;
+    border: 1.5px solid #0000009a;
+    border-radius: 0.3rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.categorypage-head-options span button:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+
+/* ---------- CATEGORY PAGE BODY ---------- */
+
+
+
+
+/* ---------- FOOD ITEMS GRID ---------- */
+
+.food-items {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: space-between;
+    row-gap: 5vh;
+}
+
+.food-items .food-item {
+    padding: 10px;
+    border-radius: 0.7rem;
+    box-shadow: rgba(0, 0, 0, 0.788) 0px 3px 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-items .food-item:hover {
+    transform: translateY(-8px);
+}
+
+.food-items .food-item img {
+    width: 100%;
+    height: 35vh;
+    border-radius: 0.7rem;
+}
+
+.food-items .food-item h4 {
+    margin: 0;
+    font-weight: 400;
+    color: rgba(211, 65, 7, 0.829);
+}
